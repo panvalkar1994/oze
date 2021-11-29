@@ -16,7 +16,7 @@
   },
   "nsis": {
     "allowElevation": true,
-    "oneClick": false,
+    "oneClick": true,
     "allowToChangeInstallationDirectory": true
   },
   "win": {
