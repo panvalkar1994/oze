@@ -7,7 +7,9 @@
     "assets/**/*",
     "build/**/*",
     "capacitor.config.*",
-    "app/**/*"
+    "app/**/*",
+    "package.json",
+    "index.js"
   ],
   "publish": {
     "provider": "github"

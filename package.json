@@ -6,7 +6,7 @@
     "name": "Vaibhav",
     "email": "vpanvalkar@outlook.com"
   },
-  "main": "index.js",
+  "main": "./index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/panvalkar1994/oze.git"
@@ -17,10 +17,12 @@
     "electron:start-live": "node ./live-runner.js",
     "electron:start": "npm run build && electron --inspect=5858 ./",
     "electron:pack": "npm run build && electron-builder build --dir -c ./electron-builder.config.json",
-    "electron:make": "npm run build && electron-builder build -c ./electron-builder.config.json -p always"
+    "electron:make": "npm run build && electron-builder build -c ./electron-builder.config.json -p always",
+    "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
     "@capacitor-community/electron": "^4.0.1",
+    "@types/node": "^16.11.10",
     "chokidar": "~3.5.2",
     "electron-is-dev": "~2.0.0",
     "electron-serve": "~1.1.0",
@@ -41,5 +43,5 @@
   "keywords": [
     "capacitor",
     "electron"
-  ],
+  ]
 }
