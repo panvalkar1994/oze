@@ -1,0 +1,29 @@
+{
+  "name": "oze",
+  "version": "1.0.0",
+  "description": "An Amazing Capacitor App",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panvalkar1994/oze.git"
+  },
+  "scripts": {
+    "electron:start": "electron ./",
+    "electron:build": "electron . oze --platform=win32 --arch=x64"
+  },
+  "dependencies": {
+    "@capacitor/electron": "^2.5.0",
+    "electron-is-dev": "^1.1.0",
+    "electron-packager": "^15.4.0",
+    "update-electron-app": "^2.0.1"
+  },
+  "devDependencies": {
+    "electron": "^8.0.0"
+  },
+  "keywords": [
+    "capacitor",
+    "electron"
+  ],
+  "author": "",
+  "license": "ISC"
+}
