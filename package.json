@@ -1,17 +1,17 @@
 {
-  "name": "Photo Gallery Cap Ng",
+  "name": "oze",
   "version": "1.0.0",
   "description": "An Amazing Capacitor App",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Vaibhav",
+    "email": "vpanvalkar@outlook.com"
   },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/panvalkar1994/oze.git"
   },
   "license": "MIT",
-  "main": "build/src/index.js",
   "scripts": {
     "build": "tsc && electron-rebuild",
     "electron:start-live": "node ./live-runner.js",
@@ -32,10 +32,14 @@
     "electron": "~13.1.9",
     "electron-builder": "~22.11.7",
     "electron-rebuild": "~2.3.5",
-    "typescript": "~4.3.5"
+    "typescript": "~4.3.5",
+    "@capacitor/electron": "^2.5.0",
+    "electron-is-dev": "^1.1.0",
+    "electron-packager": "^15.4.0",
+    "update-electron-app": "^2.0.1"
   },
   "keywords": [
     "capacitor",
     "electron"
-  ]
+  ],
 }
